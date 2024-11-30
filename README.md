@@ -63,6 +63,7 @@ Shelly RGBW2 (color mode, latest firmware needed) | `http://shellyip/ota?url=htt
 Shelly Dimmer 1 | `http://shellyip/ota?url=http://dl.dasker.eu/firmware/mg2tasmota-ShellyDimmer1.zip` | `{"NAME":"Shelly Dimmer 1","GPIO":[0,3200,0,3232,5568,5600,0,0,192,0,193,288,0,4736],"FLAG":0,"BASE":18}`
 Shelly Dimmer 2 | `http://shellyip/ota?url=http://dl.dasker.eu/firmware/mg2tasmota-ShellyDimmer2.zip` | `{"NAME":"Shelly Dimmer 2","GPIO":[0,3200,0,3232,5568,5600,0,0,193,0,192,0,320,4736],"FLAG":0,"BASE":18}`
 Shelly EM       | `http://shellyip/ota?url=http://dl.dasker.eu/firmware/mg2tasmota-ShellyEM.zip`      | `{"NAME":"Shelly EM","GPIO":[0,0,0,0,0,0,0,0,6,156,5,21,0],"FLAG":15,"BASE":18}`
+Shelly 3EM (First get http://<your_shelly3em>/calib.dat !!!) | `http://shellyip/ota?http://dl.dasker.eu/firmware.mg2tasmota-Shelly3EM.zip`         | `{"NAME":"Shelly 3EM","GPIO":[1,1,288,1,32,8065,0,0,640,8064,608,224,8096,0],"FLAG":0,"BASE":18}`
 Shelly Bulb     | `http://shellyip/ota?url=http://dl.dasker.eu/firmware/mg2tasmota-ShellyBulb.zip`    | **not yet available, only flash if you a perfectly certain about what you are doing**
 Shelly Vintage  | `http://shellyip/ota?url=http://dl.dasker.eu/firmware/mg2tasmota-ShellyVintage.zip` | **not yet available, only flash if you a perfectly certain about what you are doing**
 Shelly Plug US  | `http://shellyip/ota?url=http://dl.dasker.eu/firmware/mg2tasmota-ShellyPlugUS.zip`  | `{"NAME":"Shelly Plug US","GPIO":[52,0,57,0,21,134,0,0,131,17,132,157,0],"FLAG":0,"BASE":45}`
@@ -73,6 +74,7 @@ Shelly 1L       | `http://shellyip/ota?url=http://dl.dasker.eu/firmware/mg2tasmo
 Shelly Plug 2   | `http://shellyip/ota?url=http://dl.dasker.eu/firmware/mg2tasmota-ShellyPlug2.zip`   | **not yet available, only flash if you a perfectly certain about what you are doing**
 Shelly Uni      | `http://shellyip/ota?url=http://dl.dasker.eu/firmware/mg2tasmota-ShellyUni.zip`     | `{"NAME":"Shelly Uni","GPIO":[320,0,0,0,225,0,0,0,192,193,0,224,0,4864],"FLAG":0,"BASE":18}`
 Shelly Duo RGBW | `http://shellyip/ota?url=http://dl.dasker.eu/firmware/mg2tasmota-ShellyDuoRGBW.zip` | **not yet available, only flash if you a perfectly certain about what you are doing**
+
 
 For your convenience, the table above also lists the matching Tasmota device
 templates from [templates.blakadder.com](https://templates.blakadder.com) which
